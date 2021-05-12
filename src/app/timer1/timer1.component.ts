@@ -18,7 +18,7 @@ export class Timer1Component implements OnInit, OnDestroy {
   ngOnInit() {
     this.personMapped$ = this.person$.pipe(
       takeUntil(this.destroy$),
-      filter(person$ => person$.age > 0 && person$.age % 5 === 0), //0'ın 5'e bölümünden de kalan 0.İki defa 0 gelmesin diye bu şart
+      filter(person$ => person$.age > 0 && person$.age % 5 === 0), //0'ın 5'e bölümünden de kalan 0.İki defa 0 gelmesin diye >0 şartını ekledim.
       tap((val) => console.log(`Age 5 and the multiples of 5: ${val.age}`))
     );
     this.timer$.pipe(takeUntil(this.destroy$)).subscribe((val) => {
