@@ -1,5 +1,13 @@
 # RxjsExercises
 
+With some rxjs operators(```timer,mergeMap,filter,tap,takeUntil,of,iif```), i did three exercises.
+
+Also my another aim is understanding ```observable```,```Subject```,```BehaviorSubject``` and ```subscription``` & ```unsubscribing from observables``` in this repo.
+
+First run ```"npm install"``` and then run ```"ng serve"``` to see the application in action.
+
+ **Demo [here](https://rxjs-exercises.vercel.app/)** 🚀
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Development server
