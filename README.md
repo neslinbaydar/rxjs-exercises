@@ -1,8 +1,7 @@
 # RxjsExercises
+I did three exercises with some rxjs operators(```timer,mergeMap,filter,tap,takeUntil,of,iif```).
 
-With some rxjs operators(```timer,mergeMap,filter,tap,takeUntil,of,iif```), i did three exercises.
-
-Also my another aim is understanding ```observable```,```Subject```,```BehaviorSubject``` and ```subscription``` & ```unsubscribing from observables``` in this repo.
+Also my other goal is understanding ```observable```,```Subject```,```BehaviorSubject``` and ```subscription``` & ```unsubscribing from observables``` in this repo.
 
 First run ```"npm install"``` and then run ```"ng serve"``` to see the application in action.
 
